@@ -15,6 +15,7 @@ header_pages:
   - posts.md
   - gallery.md
   - vasilisa.md
+  - photoblog.md
 
 plugins:
  - jekyll-feed
