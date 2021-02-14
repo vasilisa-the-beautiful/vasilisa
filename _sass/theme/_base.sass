@@ -1,0 +1,98 @@
+html
+  font-family: $base-font-family
+  font-size: 2.8vw
+  font-weight: 400
+  background-color: $backgroud-color
+  color: $text-color
+  height: 100%
+  line-height: 1.55
+
+body
+  box-sizing: border-box
+  border-top: 1.5rem solid $theme-color
+  align-items: center
+  display: flex
+  flex-direction: column
+  min-height: 100%
+  margin: 0
+  width: 100%
+  & main
+    flex: 1
+
+header, main, footer
+  max-width: 650px
+  width: 92%
+
+h1
+  margin: 1rem 0
+  font-size: 1.4rem
+  font-weight: 500
+
+h2
+  font-size: 1rem
+  font-weight: 700
+  padding-top: .75rem
+
+h3
+  font-size: .8rem
+  font-weight: 700
+  letter-spacing: .05em
+  padding-top: .75rem
+  text-transform: uppercase
+
+h4, h5, h6
+  font-size: .8rem
+  font-weight: 700
+  letter-spacing: .04em
+  padding-top: .75rem
+
+a
+  color: $text-color
+  text-decoration: none
+  transition: color 200ms
+  &:hover
+    color: $theme-color
+
+p
+  margin: 0 0 .75em 0
+  & a
+    font-size: 0.75em
+    font-weight: 400
+    letter-spacing: 0.04rem
+    padding: 0 .05em
+    text-transform: uppercase
+
+figure
+  margin: 0
+
+pre, code
+  background-color: $code-background-color
+  border-radius: 2px
+
+pre
+  overflow: auto
+  padding: .5rem 1rem
+
+code
+  border-radius: 2px
+  font-family: $code-font-family
+  font-size: .75rem
+  margin: 0 .05em
+  padding: .1em .2em
+
+blockquote
+  font-style: italic
+  font-size: .9rem
+  padding: .5rem 0
+
+img
+  height: auto
+  max-width: 100%
+
+@media all and (max-width:520px)
+  html
+    font-size: 16px
+
+@media all and (min-width:700px)
+  html
+    font-size: 20px

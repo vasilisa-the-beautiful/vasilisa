@@ -1,0 +1,18 @@
+---
+---
+{% assign colors = site.theme_colors %}
+{% if colors.background %}
+$backgroud-color: {{ colors.background }}
+{% endif %}
+{% if colors.text %}
+$text-color: {{ colors.text }}
+{% endif %}
+{% if colors.theme %}
+$theme-color: {{ colors.theme }}
+{% endif %}
+{% if colors.code-background %}
+$code-background-color: {{ colors.code-block }}
+{% endif %}
+
+
+@import "main"

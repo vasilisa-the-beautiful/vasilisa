@@ -1,0 +1,12 @@
+<ul class="social-media">
+  {%- for account in site.social_media_links -%}
+  <li><a href="{{ account.link }}">
+    <i class="fab {{ account.icon }}"></i>
+  </a></li>
+  {%- endfor -%}
+  {%- if site.show_rss -%}
+  <li><a href="{{ 'feed.xml' | relative_url }}">
+    <i class="fas fa-rss"></i>
+  </a></li>
+  {%- endif -%}
+</ul>
