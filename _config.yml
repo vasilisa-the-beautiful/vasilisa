@@ -1,0 +1,32 @@
+title: Vasilisa
+author: UnKn0WN
+email: kellysnyder@live.com
+baseurl: '/'
+url: 'https://curtisupdike.github.io'
+
+
+theme_colors: # enclose hex codes in ' '
+  theme: '#4B201A'
+  text: '#58595e'
+  background: '#fff'
+  code-block: '#fbf8f4'
+
+header_pages:
+  - posts.md
+  - gallery.md
+  - vasilisa.md
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      image:
+      category:
+    posts:
+      layout: post
+      published: false
+
