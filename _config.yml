@@ -13,9 +13,9 @@ theme_colors: # enclose hex codes in ' '
 
 header_pages:
   - posts.md
+  - photoblog.md
   - gallery.md
   - vasilisa.md
-  - photoblog.md
 
 plugins:
  - jekyll-feed
