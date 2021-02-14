@@ -1,10 +1,8 @@
 <html>
 	<head>
 		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" type="text/css" href="/css/socialicious.css">
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/monokai.css">
-		<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
+		<link rel="stylesheet" type="text/css" href="/photocss/main.css">
+		<link href="/photoblog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>{{page.title}} - {{ site.blog_title }}</title>
 		<script type="text/javascript" src='/js/highlight.pack.js'></script>
@@ -22,16 +20,10 @@
 			<div id='page'>
 				<h1 id='page-title'>{{page.title}}</h1>
 				{{content}}
-				<a rel="nofollow" target="_blank" href="http://bitcoin.travel/listing-category/bitcoin-restaurants/?type=affiliate&amp;id=293">
-					<img src="http://i1381.photobucket.com/albums/ah227/peterhoffler/Bitcoin-Travel_Restaurants_Banner_zpsv6arlaot.png">
-				</a>
 				
 			</div>
 
 			<div style='clear:both'></div>
-		</div>
-		<div id='footer'>
-			{{site.full_name}} - {{site.copyright_year}}
 		</div>
 	</div>
 	{% include googleana.html %}
