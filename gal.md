@@ -1,1 +1,4 @@
-{% include my-gallery.html folder="myfolder" %}
+---
+layout: my-gallery
+title: Photo Gallery
+---
