@@ -4,7 +4,8 @@ email: kellysnyder@live.com
 baseurl: '/'
 url: 'https://curtisupdike.github.io'
 imagesurl: "qoutes/"
-thumbsurl: "qoutspng/"
+thumbsurl: "qoutespng/"
+thumbsurl: "qoutespng/"
 
 
 theme_colors: # enclose hex codes in ' '
