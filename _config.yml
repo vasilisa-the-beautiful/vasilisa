@@ -14,6 +14,7 @@ theme_colors: # enclose hex codes in ' '
 header_pages:
   - posts.md
   - gallery.md
+  - photoblog.md
   - vasilisa.md
 
 plugins:
