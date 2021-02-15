@@ -3,6 +3,8 @@ author: UnKn0WN
 email: kellysnyder@live.com
 baseurl: '/'
 url: 'https://curtisupdike.github.io'
+imagesurl: "/vasilisa/qoutes/"
+thumbsurl: "/vasilisa/qoutespng/"
 
 
 theme_colors: # enclose hex codes in ' '
@@ -15,6 +17,7 @@ header_pages:
   - posts.md
   - gallery.md
   - vasilisa.md
+  - gal.md
 
 plugins:
  - jekyll-feed
@@ -29,4 +32,3 @@ jekyll_compose:
     posts:
       layout: post
       published: false
-
