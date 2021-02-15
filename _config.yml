@@ -3,8 +3,8 @@ author: UnKn0WN
 email: kellysnyder@live.com
 baseurl: '/'
 url: 'https://curtisupdike.github.io'
-imagesurl: "/vasilisa/qoutes/"
-thumbsurl: "/vasilisa/qoutespng/"
+imagesurl: "qoutes/"
+thumbsurl: "qoutspng/"
 
 
 theme_colors: # enclose hex codes in ' '
