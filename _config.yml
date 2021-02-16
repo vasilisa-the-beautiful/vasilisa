@@ -3,7 +3,6 @@ author: UnKn0WN
 email: kellysnyder@live.com
 baseurl: '/'
 imagesurl: "qoutes/"
-thumbsurl: "qoutespng/"
 
 theme_colors: # enclose hex codes in ' '
   theme: '#4B201A'
