@@ -2,8 +2,14 @@ title: Vasilisa
 author: UnKn0WN
 email: kellysnyder@live.com
 baseurl: '/'
+<<<<<<< HEAD
 imagesurl: "qoutes/"
 thumbsurl: "qoutespng/"
+=======
+url: 'https://curtisupdike.github.io'
+imagesurl: "/vasilisa/qoutes/"
+thumbsurl: "/vasilisa/qoutespng/"
+>>>>>>> parent of 3f41351 (Update _config.yml)
 
 
 theme_colors: # enclose hex codes in ' '
