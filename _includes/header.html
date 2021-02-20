@@ -1,8 +1,6 @@
 <header class="site-header">
- <center>
- <a href="{{ "/" | relative_url }}">
-    <img src="/images/vas-header.JPG">
-  </a>
-</center>
+
+<h1 class="site-title"><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+
  {%- include nav.html -%}
 </header>

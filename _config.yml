@@ -1,4 +1,4 @@
-title: Vasilisa
+title: Beautifully Bipolar
 author: UnKn0WN
 email: kellysnyder@live.com
 baseurl: '/'
@@ -10,10 +10,10 @@ theme_colors: # enclose hex codes in ' '
   code-block: '#fbf8f4'
 
 header_pages:
-  - posts.md
-  - gallery.md
-  - vasilisa.md
-  - gal.md
+  - index.md
+  - blog.md
+  - photoblog.md
+  - art.md
 
 plugins:
  - jekyll-feed

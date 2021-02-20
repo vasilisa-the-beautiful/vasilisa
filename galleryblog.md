@@ -1,4 +1,0 @@
----
-layout: galleryblog
-title: Untitled
----

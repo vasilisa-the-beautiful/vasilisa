@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Wicked Game"
+category: blog1
 ---
 
 <p><em>It's strange what desire will make foolish people do*<br>

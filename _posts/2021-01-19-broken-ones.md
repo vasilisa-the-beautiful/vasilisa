@@ -2,6 +2,7 @@
 layout: post
 title: Broken Ones
 date: 2021-01-19 20:35 -0500
+category: blog1
 ---
 
 Cross your heart and say you've never given up\
