@@ -22,9 +22,22 @@ plugins:
 jekyll_compose:
   default_front_matter:
     drafts:
-      layout: post
-      image:
-      category:
+      layout: default
+      photo:
+      caption_header:
+      caption: 
+      category: 
+      published: false
     posts:
       layout: post
-      published: false
+      photo:
+      title: 
+      category: blog1
+      published: true
+    photopost:
+      layout: default
+      photo:
+      caption_header:
+      caption: 
+      category: photoblog
+      published: true
