@@ -26,8 +26,8 @@ jekyll_compose:
       photo:
       caption_header:
       caption: 
-      category: 
-      published: false
+      category: photoblog
+      published: true
     posts:
       layout: post
       photo:
