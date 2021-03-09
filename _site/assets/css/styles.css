@@ -46,7 +46,7 @@ img { height: auto; max-width: 100%; }
 
 .site-title a:hover { color: #58595e; }
 
-.site-nav { border-bottom: 1px solid #58595e; border-top: 1px solid #58595e; font-size: 20px; }
+.site-nav { border-bottom: 1px solid #58595e; border-top: 1px solid #58595e; }
 
 .site-nav ul { margin: 0; padding: 0; }
 
