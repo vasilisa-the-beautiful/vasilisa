@@ -1,4 +1,4 @@
 ---
-layout: photoindex
+layout: photoblog
 title: Photo Blog
 ---
