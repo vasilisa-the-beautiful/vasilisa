@@ -3,7 +3,7 @@ layout: post
 title: Conversations In The Dark
 date: 2021-01-19 19:58 -0500
 published: true
-category: blog1
+category: blog
 ---
 Talk\
 Let's have conversations in the dark\

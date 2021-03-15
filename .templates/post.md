@@ -2,6 +2,6 @@
 layout: post
 photo:
 title: 
-category: blog1
+category: blog
 published: true
 ---
