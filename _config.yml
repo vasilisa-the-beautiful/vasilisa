@@ -12,6 +12,7 @@ theme_colors: # enclose hex codes in ' '
 header_pages:
   - index.md
   - blog.md
+  - photoblog.md
   - art.md
 
 plugins:
