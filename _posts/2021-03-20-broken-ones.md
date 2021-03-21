@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 photo: null
 caption_header: null
 caption: null
