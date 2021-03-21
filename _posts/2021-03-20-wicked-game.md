@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Wicked Game"
+photo: null
+title: Wicked Game
 category: blog
+published: true
 ---
 
 <p><em>It's strange what desire will make foolish people do*<br>
