@@ -7,17 +7,16 @@ layout: page
 <head>
   <style>
     div.gallery {
-      border: 1px solid #ccc;
+      border: 0px solid #ccc;
     }
 
     div.gallery:hover {
-      border: 1px solid #777;
+      border: 0px solid #777;
     }
 
     div.gallery img {
-      width: 600px;
-      height: 400px;
-      object-fit: contain;
+      width: 100%;
+      height: auto;
     }
 
     div.desc {
@@ -63,16 +62,16 @@ layout: page
 
       {%- for post in site.posts -%}
       {% if post.categories contains 'photoblog' %}
-     
-        <h2>{{ post.title }}</h2>
-        {% assign photo_path = '/images/' | append: post.photo %}
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ photo_path | relative_url }}" width="600" height="400" />
-        </a>
-      </div>
-      {%- endif -%}
-      {% endfor %}
-    
+
+      <h2>{{ post.title }}</h2>
+      {% assign photo_path = '/images/' | append: post.photo %}
+      <a href="{{ post.url | relative_url }}">
+        <img src="{{ photo_path | relative_url }}" width="600" height="400" />
+      </a>
+    </div>
+    {%- endif -%}
+    {% endfor %}
+  </div>
   </div>
 
 </body>
