@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 photo:
 caption_header:
 caption: 

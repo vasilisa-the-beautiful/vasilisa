@@ -70,6 +70,9 @@ layout: page
       </a>
     </div>
     {%- endif -%}
+    {%- if site.show_excerpts -%}
+    {{ post.excerpt }}
+  {%- endif -%}
     {% endfor %}
   </div>
   </div>
