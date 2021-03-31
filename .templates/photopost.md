@@ -1,8 +1,8 @@
 ---
-layout: default
-photo:
+layout: post
+image: /images/
 caption_header:
 caption: 
-category: photoblog
+category: art_post
 published: true
 ---
