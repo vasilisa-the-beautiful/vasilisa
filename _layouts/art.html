@@ -1,6 +1,49 @@
 ---
 layout: page
 ---
+
+<html>
+
+<head>
+  <style>
+    div.gallery {
+      border: 0px solid #ccc;
+    }
+
+    div.gallery:hover {
+      border: 0px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+
 <div class="home">
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
@@ -18,3 +61,7 @@ layout: page
     </ul>
   {%- endif -%}
 </div>
+
+  </body>
+  
+</html>
