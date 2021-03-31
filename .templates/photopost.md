@@ -1,8 +1,8 @@
 ---
 layout: post
-image: /images/
+title: Hello World!
+category: art_post
+image: /images/###_qoute.png
 caption_header:
 caption: 
-category: art_post
-published: true
 ---
