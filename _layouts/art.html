@@ -1,72 +1,41 @@
 ---
 layout: page
 ---
+<html>
+  <head>
 
 <style>
-  div.gallery {
-    border: 0px solid #ccc;
-  }
 
-  div.gallery:hover {
-    border: 0px solid #777;
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  align-items: center;
+  justify-items: center;
   }
-
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
-
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
 </style>
 
-<div class="gallery">
-  <div class="responsive">
+<main class="grid">
+
   {%- if site.posts.size > 0 -%}
 
       {%- for post in site.categories.art_post -%}
-   
-        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+  
+       
           <a class="post-link" href="{{ post.url | relative_url }}">
             <img src={{post.image | relative }} />
           </a>
-        </h3>
+      
       
       {%- endfor -%}
 
   {%- endif -%}
 </div>
 </div>
+</main>
+
