@@ -2,7 +2,7 @@
 layout: post
 title: Hello World!
 category: art_post
-image: /images/100_qoute.png
+image: /images/1.png
 caption_header:
 caption: 
 ---
