@@ -1,5 +1,4 @@
 title: Beautifully Bipolar
-author: UnKn0WN
 email: kellysnyder@live.com
 baseurl: '/'
 
@@ -17,26 +16,3 @@ header_pages:
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
-
-jekyll_compose:
-  default_front_matter:
-    drafts:
-      layout: default
-      photo:
-      caption_header:
-      caption: 
-      category: photoblog
-      published: true
-    posts:
-      layout: post
-      photo:
-      title: 
-      category: blog1
-      published: true
-    photopost:
-      layout: default
-      photo:
-      caption_header:
-      caption: 
-      category: photoblog
-      published: true
